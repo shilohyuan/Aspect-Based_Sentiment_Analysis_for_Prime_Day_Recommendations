@@ -7,24 +7,7 @@
 # 
 # **Keywords**: Sentiment Analysis, Aspect-Based Analysis, Unsupervised Learning, Prime Day Optimization, Strategic Recommendations. 
 # ### Data Preprocessing  (rewrite)
-# The dataset contains a total of 6939 image files divided equally into 3 classes (covid, pneumonia, normal)  
-# Resized into 128 x 128 pixels in order to reduce computational complexity  
-# Split the data into 80% train and 20% test sets   
-# Create a model with transfer learning  
-# 
-# ### Methodology (rewrite)
-# Transfer learning is: model developed for a task is reused as the starting point for a model on a second task  
-# Introduce the Deep Neural Networks you used in your project  
-# 
-# Model 1: Plain VGG 19 model adapted adding an output layer  
-# Model 2: VGG19 Finetuning adding additional conv2D layers  
-# Model 3: VG19 Extended Plus Data Augmentation  
-# **Keywords**: multi-label classification  
-# 
-# ### MultiClass Evaluation against Extended VGG19 Model  (re-write)
-# Recall is the porpotion of the positive is corectly classified which is true positive over all positive (true positive + false negative)  
-# Precision is the porpotion of predicted positives is truly positive which is true positive over the all predicted positive  
-# F1 is the weighted average of precision and recall, which is a combination metrics  
+
 # 
 # ### Issues / Improvements  
 # Might not capture complex sentiments or sarcasm.  
